@@ -1,0 +1,2 @@
+fn = @(x) (1/sqrt(2*pi)*exp(-x*x/2)*(x*x-1));
+fplot(fn,[-2,2]);
